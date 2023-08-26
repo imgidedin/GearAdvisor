@@ -9,7 +9,7 @@
         <TargetFramework>net7.0-windows</TargetFramework>
         <Platforms>x64</Platforms>
         <LangVersion>preview</LangVersion>
-        <PluginName>PunishTemplate</PluginName>
+        <PluginName>GearAdvisor</PluginName>
         <DalamudDevPlugins>$(appdata)\XIVLauncher\devPlugins\$(PluginName)\</DalamudDevPlugins>
         <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
         <DalamudPluginPath>$(appdata)\XIVLauncher\installedPlugins\$(PluginName)\$(version)</DalamudPluginPath>
@@ -37,8 +37,8 @@
     <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
         <OutputPath>$(DalamudDevPlugins)</OutputPath>
     </PropertyGroup>
-    
-    
+
+
     <PropertyGroup Condition="'$(OS)' != 'Windows_NT' OR '$(CI)' == 'true'">
         <DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
@@ -77,8 +77,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="PunishTemplate.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
+        <None Update="GearAdvisorGearAdvisor.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 </Project>
