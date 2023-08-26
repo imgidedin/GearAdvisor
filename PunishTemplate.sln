@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunishTemplate", "PunishTemplate\PunishTemplate.csproj", "{910E17C8-A0DF-4131-B610-CD387C19035D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommons", "ECommons\ECommons\ECommons.csproj", "{4D858B9C-95BF-41BF-80BF-E61DEE1B3989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PunishLib", "PunishLib\PunishLib\PunishLib.csproj", "{BF9B129D-8611-4932-B212-1F01C72C1DB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{910E17C8-A0DF-4131-B610-CD387C19035D}.Debug|x64.ActiveCfg = Debug|x64
+		{910E17C8-A0DF-4131-B610-CD387C19035D}.Debug|x64.Build.0 = Debug|x64
+		{910E17C8-A0DF-4131-B610-CD387C19035D}.Release|x64.ActiveCfg = Release|x64
+		{910E17C8-A0DF-4131-B610-CD387C19035D}.Release|x64.Build.0 = Release|x64
+		{4D858B9C-95BF-41BF-80BF-E61DEE1B3989}.Debug|x64.ActiveCfg = Debug|x64
+		{4D858B9C-95BF-41BF-80BF-E61DEE1B3989}.Debug|x64.Build.0 = Debug|x64
+		{4D858B9C-95BF-41BF-80BF-E61DEE1B3989}.Release|x64.ActiveCfg = Release|x64
+		{4D858B9C-95BF-41BF-80BF-E61DEE1B3989}.Release|x64.Build.0 = Release|x64
+		{BF9B129D-8611-4932-B212-1F01C72C1DB0}.Debug|x64.ActiveCfg = Debug|x64
+		{BF9B129D-8611-4932-B212-1F01C72C1DB0}.Debug|x64.Build.0 = Debug|x64
+		{BF9B129D-8611-4932-B212-1F01C72C1DB0}.Release|x64.ActiveCfg = Release|x64
+		{BF9B129D-8611-4932-B212-1F01C72C1DB0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17E85B1-5F60-4440-9F9A-3DDE877E8CDF}
+	EndGlobalSection
+EndGlobal
